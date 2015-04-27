@@ -1,0 +1,5 @@
+C:\Users\Wendy Rivera\Documents\Visual Studio 2013\Projects\3eva\Persona22\Persona22\bin\Debug\Persona22.dll
+C:\Users\Wendy Rivera\Documents\Visual Studio 2013\Projects\3eva\Persona22\Persona22\bin\Debug\Persona22.pdb
+C:\Users\Wendy Rivera\Documents\Visual Studio 2013\Projects\3eva\Persona22\Persona22\obj\Debug\Persona22.csprojResolveAssemblyReference.cache
+C:\Users\Wendy Rivera\Documents\Visual Studio 2013\Projects\3eva\Persona22\Persona22\obj\Debug\Persona22.dll
+C:\Users\Wendy Rivera\Documents\Visual Studio 2013\Projects\3eva\Persona22\Persona22\obj\Debug\Persona22.pdb

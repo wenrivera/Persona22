@@ -15,10 +15,37 @@ namespace Ejercicio_4_4_22
             this.peso22 = peso;
         }
 
-        public int peso22;
-        public int altura22;
-        public string colorOjos22;
-        public string colorPelo22;
+        private int peso22;
+        private int altura22;
+        private string colorOjos22;
+        private string colorPelo22;
+
+
+        public string ColorOjos22
+        {
+            get { return colorOjos22; }
+            set { colorOjos22 = value; }
+        }
+      
+        public string ColorPelo22
+        {
+            get { return colorPelo22; }
+            set { colorPelo22 = value; }
+        }
+
+        public int Altura22
+        {
+            get { return altura22; }
+            set { altura22 = value; }
+        }
+       
+
+        public int Peso22
+        {
+            get { return peso22; }
+            set { peso22 = value; }
+        }
+       
 
         public void PonerLentillas22(string colorLentillas)
         {
@@ -39,14 +66,7 @@ namespace Ejercicio_4_4_22
                 this.peso22 = nuevoPeso;
             }
         }
-        public bool ComprobarPeso22(int nuevoPeso)
-        {
-            return nuevoPeso > 180 || nuevoPeso < 40; ;
-        }      
-        public bool ComprobarColor22(string colorLentillas)
-        {  
-        return colorLentillas.Equals("azul") || colorLentillas.Equals("marron") || colorLentillas.Equals("verde");
-        }
+    
 
         public void Adelgazar22(int cantidad)
         {
@@ -59,6 +79,15 @@ namespace Ejercicio_4_4_22
             {
                 this.peso22 = nuevoPeso;
             }
+        }
+
+        public bool ComprobarPeso22(int nuevoPeso)
+        {
+            return nuevoPeso > 180 || nuevoPeso < 40; ;
+        }
+        public bool ComprobarColor22(string colorLentillas)
+        {
+            return colorLentillas.Equals("azul") || colorLentillas.Equals("marron") || colorLentillas.Equals("verde");
         }
     }
 }

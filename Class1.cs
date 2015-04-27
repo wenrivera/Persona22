@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Ejercicio_4_4_X
+namespace Ejercicio_4_4_22
 {
     class Persona22
     {
@@ -20,19 +20,45 @@ namespace Ejercicio_4_4_X
         public string colorOjos22;
         public string colorPelo22;
 
-        public void PonerLentillasX(string colorLentillas)
+        public void PonerLentillas22(string colorLentillas)
         {
+         if (ComprobarColor22(colorLentillas))
+         this.colorOjos22 = colorLentillas;
 
         }
 
-        public void EngordarX(int cantidad)
+        public void Engordar22(int cantidad)
         {
-
+            int nuevoPeso = this.peso22 + cantidad;
+            if (ComprobarPeso22(nuevoPeso))
+            {
+                Console.WriteLine("CUIDADO no se puede incrementar mas el peso");
+            }
+            else
+            {
+                this.peso22 = nuevoPeso;
+            }
+        }
+        public bool ComprobarPeso22(int nuevoPeso)
+        {
+            return nuevoPeso > 180 || nuevoPeso < 40; ;
+        }      
+        public bool ComprobarColor22(string colorLentillas)
+        {  
+        return colorLentillas.Equals("azul") || colorLentillas.Equals("marron") || colorLentillas.Equals("verde");
         }
 
-        public void AdelgazarX(double cantidad)
+        public void Adelgazar22(int cantidad)
         {
-
+            int nuevoPeso = this.peso22 - cantidad;
+            if (ComprobarPeso22(nuevoPeso))
+            {                
+          Console.WriteLine(" CUIDADO no puedes perder más peso");
+            }
+            else
+            {
+                this.peso22 = nuevoPeso;
+            }
         }
     }
 }
